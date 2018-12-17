@@ -109,8 +109,8 @@ module Business
     end
   end
 #comment 5
-#test add lines.
 
+# remove one line
   class BusersRole < Business::Base
     belongs_to :buser, class_name: 'Business::Buser', foreign_key: 'buser_id'
     belongs_to :role, class_name: 'Business::Role', foreign_key: 'role_id'
