@@ -111,6 +111,10 @@ module Business
 #comment 5
 
 # remove one line
+#test add lines.
+#add lines again.
+#
+#
   class BusersRole < Business::Base
     belongs_to :buser, class_name: 'Business::Buser', foreign_key: 'buser_id'
     belongs_to :role, class_name: 'Business::Role', foreign_key: 'role_id'
