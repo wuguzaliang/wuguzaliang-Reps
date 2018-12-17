@@ -110,10 +110,9 @@ module Business
   end
 #comment 5
 
-# remove one line
-#test add lines.
+# remove one line by user1
 #add lines again.
-#
+# add one line by user1
 #
   class BusersRole < Business::Base
     belongs_to :buser, class_name: 'Business::Buser', foreign_key: 'buser_id'
