@@ -108,6 +108,8 @@ module Business
       end
     end
   end
+#comment 5
+#test add lines.
 
   class BusersRole < Business::Base
     belongs_to :buser, class_name: 'Business::Buser', foreign_key: 'buser_id'
