@@ -163,6 +163,7 @@ module Business
             lock_version: 0
         # dou_sizing: dou.TotalDOUSizing,
         # sizing: dou.TotalUpdateSizing
+        # comment 6  append one line
         )
 
         data = DeliverableService.get(fallplan.dou_id)
