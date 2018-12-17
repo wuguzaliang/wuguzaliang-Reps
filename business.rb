@@ -114,6 +114,8 @@ module Business
 #add lines again.
 # add one line by user1
 #
+#
+#add line by user0
   class BusersRole < Business::Base
     belongs_to :buser, class_name: 'Business::Buser', foreign_key: 'buser_id'
     belongs_to :role, class_name: 'Business::Role', foreign_key: 'role_id'
